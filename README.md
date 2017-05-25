@@ -1,7 +1,7 @@
 # Snmp.Core 
-[![NuGet Version](https://img.shields.io/nuget/v/Lextm.SharpSnmpLib.svg?style=flat-square)](https://www.nuget.org/packages/Snmp.Core/)
-[![Build status](https://img.shields.io/appveyor/ci/lextm/sharpsnmplib/master.svg?label=appvejor&style=flat-square)](https://ci.appveyor.com/project/RogerBai/snmp-core)
-[![Stories in Progress](https://img.shields.io/waffle/label/lextm/sharpsnmplib/in%20progress.svg?style=flat-square)](https://waffle.io/RogerBai/Snmp.Core) 
+[![NuGet Version](https://img.shields.io/badge/snmp.core-v1.0.1-blue.svg?style=flat-square)](https://www.nuget.org/packages/Snmp.Core/)
+[![Build status](https://img.shields.io/appveyor/ci/gruntjs/grunt/master.svg?label=appvejor&style=flat-square)](https://ci.appveyor.com/project/RogerBai/snmp-core)
+[![Stories in Progress](https://img.shields.io/waffle/label/evancohen/smart-mirror/in%20progress.svg?style=flat-square)](https://waffle.io/RogerBai/Snmp.Core) 
 
 ================================
 
