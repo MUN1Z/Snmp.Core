@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>Snmp.Core</id>
+    <version>$version$</version>
+    <authors>Roger Bai</authors>
+    <description>Snmp Library ported to dotnet core platform</description>
+    <!--<language>en-US</language>-->
+    <dependencies>
+      <group targetFramework="netcoreapp1.1">
+      </group>
+    </dependencies>
+    <projectUrl>https://github.com/RogerBai/Snmp.Core</projectUrl>
+    <iconUrl>https://github.com/fluidicon.png</iconUrl>
+    <copyright>Copyright 2017. All rights reserved.</copyright>
+  </metadata>
+  <files>
+    <file src="Snmp.Core\bin\Release\netcoreapp1.1\Snmp.Core.dll" target="lib\netcoreapp1.1" />
+  </files>
+</package>
