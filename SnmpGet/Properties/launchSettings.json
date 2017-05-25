@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SnmpGet": {
+      "commandName": "Project",
+      "commandLineArgs": "172.16.33.22"
+    }
+  }
+}

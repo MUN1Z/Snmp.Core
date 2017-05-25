@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Messaging\Discoverer.cs" />
+    <Compile Remove="Security\AESPrivacyProvider.cs" />
+  </ItemGroup>
+
+</Project>
