@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>Snmp.Core</id>
-    <version>@version</version>
+    <version>$version$</version>
     <authors>Roger Bai</authors>
     <description>Snmp Library ported to dotnet core platform</description>
     <!--<language>en-US</language>-->
