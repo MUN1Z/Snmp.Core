@@ -19,7 +19,7 @@ namespace SnmpGetBulk
             string community = "public";
             bool showVersion = false;
             VersionCode version = VersionCode.V2;
-            int timeout = 5000;
+            int timeout = 10000;
             Levels level = Levels.Reportable;
             string user = string.Empty;
             string authentication = string.Empty;
@@ -36,19 +36,7 @@ namespace SnmpGetBulk
                 Console.WriteLine(System.Reflection.Assembly.GetEntryAssembly().GetName().Version);
                 return;
             }
-
-            IPAddress ip;
-            bool parsed = IPAddress.TryParse(args[0], out ip);
-            if (!parsed)
-            {
-
-                if (ip == null)
-                {
-                    Console.WriteLine("invalid host or wrong IP address found: " + args[0]);
-                    return;
-                }
-            }
-
+            
             try
             {
                 List<String> extra = new List<String>();
@@ -66,7 +54,7 @@ namespace SnmpGetBulk
                     vList.Add(test);
                 }
 
-                IPEndPoint receiver = new IPEndPoint(ip, 161);
+                IPEndPoint receiver = new IPEndPoint(IPAddress.Parse("10.60.13.7"), 161);
                 if (version != VersionCode.V3)
                 {
                     GetBulkRequestMessage message = new GetBulkRequestMessage(0, version,
@@ -118,6 +106,7 @@ namespace SnmpGetBulk
 
                 GetRequestMessage request = new GetRequestMessage(VersionCode.V3, Messenger.NextMessageId, Messenger.NextRequestId, new OctetString(user), vList, priv, Messenger.MaxMessageSize, report);
                 ISnmpMessage reply = request.GetResponse(timeout, receiver);
+
                 if (dump)
                 {
                     Console.WriteLine("Request message bytes:");

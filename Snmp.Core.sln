@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Snmp.Core", "SNMP.Core\Snmp.Core.csproj", "{AFB6A5E5-A453-4AE6-9272-2C8E1EDEFB51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnmpGet", "SnmpGet\SnmpGet.csproj", "{ABCA9A93-C6E7-439C-A502-B1F1E95D4EBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnmpGet", "SnmpGet\SnmpGet.csproj", "{ABCA9A93-C6E7-439C-A502-B1F1E95D4EBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnmpGetBulk", "SnmpGetBulk\SnmpGetBulk.csproj", "{D4748628-3093-44CC-B588-8CC0F9C35E9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnmpGetBulk", "SnmpGetBulk\SnmpGetBulk.csproj", "{D4748628-3093-44CC-B588-8CC0F9C35E9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnmpWalk", "SnmpWalk\SnmpWalk.csproj", "{3890D754-8CB4-4FC8-868A-DAF730F9C13E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnmpWalk", "SnmpWalk\SnmpWalk.csproj", "{3890D754-8CB4-4FC8-868A-DAF730F9C13E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snmp.Standard", "Snmp.Standard\Snmp.Standard.csproj", "{ED7901B0-1F47-4E12-A4D5-E6C32C0CC2DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +35,15 @@ Global
 		{3890D754-8CB4-4FC8-868A-DAF730F9C13E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3890D754-8CB4-4FC8-868A-DAF730F9C13E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3890D754-8CB4-4FC8-868A-DAF730F9C13E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED7901B0-1F47-4E12-A4D5-E6C32C0CC2DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED7901B0-1F47-4E12-A4D5-E6C32C0CC2DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED7901B0-1F47-4E12-A4D5-E6C32C0CC2DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED7901B0-1F47-4E12-A4D5-E6C32C0CC2DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {368D7EF5-07E2-4FE0-831C-D9F381AF55A8}
 	EndGlobalSection
 EndGlobal

@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SNMP.Core\Snmp.Core.csproj" />
+    <ProjectReference Include="..\Snmp.Standard\Snmp.Standard.csproj" />
   </ItemGroup>
 
 </Project>
